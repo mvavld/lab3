@@ -50,7 +50,7 @@ test("statistics", () => {
   _cache.get("name4");
   _cache.get("name5");
   let result = _cache.statisctics;
-  expect(result).toBe([
+  expect(result).toEqual([
     ["name1", "Vlad1", 0],
     ["name2", "Vlad2", 0],
     ["name3", "Vlad3", 0],

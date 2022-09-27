@@ -14,7 +14,7 @@ class Cache {
     } else {
       if (result[1] > 0) {
         result[1]--;
-        this.statisctics.push(result);
+        this.statisctics.push([key, result[0], result[1]]);
         return result[0];
       } else {
         return null;
